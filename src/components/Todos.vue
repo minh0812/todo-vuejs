@@ -4,7 +4,7 @@
       <div class="todo-list not-done">
         <h1>TODOS</h1>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter content" v-model="textContent">
+          <input type="text" class="form-control" placeholder="Enter your work" v-model="textContent">
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button" id="button-addon2" @click="addTask()">Add</button>
           </div>
